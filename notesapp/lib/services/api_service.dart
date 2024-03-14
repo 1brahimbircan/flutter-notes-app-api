@@ -5,7 +5,7 @@ import 'package:dio/dio.dart';
 class ApiService {
   // ignore: prefer_final_fields
   static String _baseUrl =
-      "https://enigmatic-gorge-34644-27e3b5269bb0.herokuapp.com/notes";
+      "https://notesapp-backend-alpha.vercel.app/notes";
 
   static Dio dio = Dio();
 
